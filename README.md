@@ -1,17 +1,59 @@
-# real_estate_app
+# Real Estate App
 
-A new Flutter project.
+## Prerequisites
+
+Before you begin, ensure you have the following tools installed on your machine:
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Android Studio](https://developer.android.com/studio) (Optional but recommended for Android development)
+- [Xcode](https://developer.apple.com/xcode/) (Required for iOS/macOS development)
+- [VS Code](https://code.visualstudio.com/) (Recommended code editor for Flutter)
+
+### Development Environment
+
+This project was developed and tested on the following environment:
+
+- **Flutter SDK**: Version 3.29.0
+- **Operating System**: macOS 15.1.1
+- **Android SDK**: Version 34.0.0
+- **Xcode**: Version 16.1
+- **Android Studio**: Version 2023.1
+- **VS Code**: Version 1.97.2
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps to set up the project locally.
 
-A few resources to get you started if this is your first Flutter project:
+### 1. Clone the repository
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/wanoghoco/real_estate_app.git
+cd real_estate_app
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# real_estate_app
+### 2. Install dependencies
+
+Make sure you have Flutter and Dart set up on your machine. Run the following command to install all the necessary dependencies:
+
+```bash
+flutter pub get
+```
+
+### 3. Set up your devices
+
+Ensure you have an emulator or physical device running, whether for Android or iOS.
+
+- For Android: Run `flutter devices` to ensure your Android device is connected.
+- For iOS: Ensure your iOS device is connected and recognized by Xcode.
+
+### 4. Run the app
+
+To run the app on an Android, iOS, use the following command:
+
+```bash
+flutter run
+```
+
+### 5. Development workflow
+
+- Use **VS Code** or **Android Studio** for the best development experience
